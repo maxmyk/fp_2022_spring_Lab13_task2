@@ -449,7 +449,7 @@ class LinkedBST(AbstractCollection):
         reb_test()
         print("\ttime: ", timeit.timeit(
             lambda: test4(rand_words, bst_example_second), number=1))
-        print('Important information!\nIf all functions\' found/unfound values\
+        print('Important information!\nIf all functions\' found/unfound values \
 are the same, they are correct.\nTests represent search time for 10,000 random \
 words in:\n\t\
 1.(1-st test): standart list\n\t\
